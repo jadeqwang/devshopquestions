@@ -3,7 +3,7 @@
 </head>
 
 <body>
-  <div id="top-tag-filter">
+  <div id="top-pane">
     {{> lists}}
   </div>
 
@@ -17,7 +17,7 @@
 </body>
 
 <template name="lists">
-  <h1><p align=center>
+  <h1><p align=center></br>
   Meteor Devshop Questions</h1>
   {{#if loading}}
     <div id="lists">Loading...</div>
@@ -99,7 +99,7 @@
 
 <template name="tag_filter">
   <div id="tag-filter" class="tag-list">
-    <div class="label">Show:</div>
+    <div class="label">Tables with Questions:</div>
     {{#each tags}}
       <div class="tag {{selected}}">
         {{tag_text}} <span class="count">({{count}})</span>
