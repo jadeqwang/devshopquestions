@@ -26,7 +26,7 @@ Meteor.startup(function () {
          ["6502 Assembly", "Linked"]
          ]
       },
-      {name: "Favorite Scientists",
+      {name: "Questions",
        contents: [
          ["Ada Lovelace", "Computer Science"],
          ["Grace Hopper", "Computer Science"],

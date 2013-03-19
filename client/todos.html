@@ -1,10 +1,10 @@
 <head>
-  <title>Todos</title>
+  <title>Meteor Devshop Questions</title>
 </head>
 
 <body>
   <div id="top-tag-filter">
-    {{> tag_filter}}
+    {{> lists}}
   </div>
 
   <div id="main-pane">
@@ -12,12 +12,13 @@
   </div>
 
   <div id="side-pane">
-    {{> lists}}
+    {{> tag_filter}}
   </div>
 </body>
 
 <template name="lists">
-  <h3>Todo Lists</h3>
+  <h1><p align=center>
+  Meteor Devshop Questions</h1>
   {{#if loading}}
     <div id="lists">Loading...</div>
   {{else}}
@@ -51,7 +52,7 @@
         Loading...
       {{else}}
         <div id="new-todo-box">
-          <input type="text" id="new-todo" placeholder="New item" />
+          <input type="text" id="new-todo" placeholder="Ask a question" />
         </div>
         <ul id="item-list">
           {{#each todos}}
@@ -89,7 +90,7 @@
         </div>
       {{else}}
         <div class="tag addtag">
-          +tag
+          +Table Number
         </div>
       {{/if}}
     </div>

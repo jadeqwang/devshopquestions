@@ -14,8 +14,8 @@ html, body {
 body {
     font-size: 16px;
     line-height: 1.5;
-    background: #eeeeee;
-    color: #333333;
+    background: #2a2a2a;
+    color: #efefef;
 }
 
 body, input {
@@ -51,8 +51,8 @@ h3 {
     left: 200px;
     height: 44px;
     bottom: auto;
-    background: #ddd;
-    border-bottom: 1px solid #999;
+    background: #000;
+    border-bottom: 0px solid #999;
 }
 
 #help {
@@ -70,9 +70,9 @@ h3 {
     width: 200px;
     right: auto;
     overflow: auto;
-    background: #eee;
-    border-right: 1px solid #999;
-    background: #ddd;
+    background: #111;
+    border-right: 0Helppx solid #999;
+    background: #111;
 }
 
 .tag {
@@ -107,7 +107,7 @@ h3 {
 
 #tag-filter .tag {
     margin-top: 10px;
-    border: 1px solid #777;
+    border: 0px solid #555;
 }
 
 #tag-filter .selected {
@@ -238,7 +238,7 @@ h3 {
 
 #item-list .todo .item-tags div.addtag {
     background: none;
-    color: #333;
+    color: #aaa;
     border: 1px dashed #999;
 }
 
