@@ -4,12 +4,10 @@ Meteor.startup(function () {
     var data = [
       {name: "Questions",
        contents: [
-         ["I made a thing, can you look at it?", "Table 3"],
-         ["Grace Hopper", "Computer Science"],
-         ["Marie Curie", "Physics", "Chemistry"],
-         ["Carl Friedrich Gauss", "Math", "Physics"],
-         ["Nikola Tesla", "Physics"],
-         ["Claude Shannon", "Math", "Computer Science"]
+         ["I made a thing, can you look at it?", "3"],
+         ["Grace Hopper", "1"],
+         ["Marie Curie", "2", "General Questions"],
+         ["Carl Friedrich Gauss", "3", "Bug in App"],
        ]
       }
     ];

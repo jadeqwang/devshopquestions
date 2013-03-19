@@ -14,7 +14,7 @@ html, body {
 body {
     font-size: 16px;
     line-height: 1.5;
-    background: #2a2a2a;
+    background: #202020;
     color: #efefef;
 }
 
@@ -38,7 +38,7 @@ h3 {
     text-align: center;
 }
 
-#top-tag-filter, #main-pane, #side-pane, #bottom-pane {
+#top-pane, #main-pane, #side-pane, #bottom-pane {
     position: absolute;
     left: 0;
     right: 0;
@@ -47,11 +47,11 @@ h3 {
     overflow: hidden;
 }
 
-#top-tag-filter {
-    left: 200px;
+#top-pane {
+    left: 100px;
     height: 88px;
     bottom: auto;
-    background: #000;
+    background: #222;
     border-bottom: 0px solid #999;
 }
 
@@ -62,13 +62,12 @@ h3 {
 #main-pane {
     top: 89px;
     bottom: 0;
-    left: 220px;
+    left: 140px;
     overflow: auto;
 }
 
 #side-pane {
-    width: 200px;
-    top: 89px;
+    width: 120px;
     right: auto;
     overflow: auto;
     background: #111;
