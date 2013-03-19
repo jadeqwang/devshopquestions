@@ -282,7 +282,7 @@ Template.tag_filter.tags = function () {
 };
 
 Template.tag_filter.tag_text = function () {
-  return this.tag || "All items";
+  return this.tag || "All tables";
 };
 
 Template.tag_filter.selected = function () {

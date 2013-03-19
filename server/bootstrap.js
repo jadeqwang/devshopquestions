@@ -4,10 +4,10 @@ Meteor.startup(function () {
     var data = [
       {name: "Questions",
        contents: [
-         ["I made a thing, can you look at it?", "3"],
-         ["Grace Hopper", "1"],
-         ["Marie Curie", "2", "General Questions"],
-         ["Carl Friedrich Gauss", "3", "Bug in App"],
+         ["Meteor.userId is changeable?", "3"],
+         ["Is there a way to get index while iterating through collection in Meteor?", "2", "General Questions"],
+         ["How do you make a REST API and upload files in Meteor?", "1"],
+
        ]
       }
     ];
