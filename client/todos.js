@@ -174,6 +174,24 @@ Template.todos.todos = function () {
   if (tag_filter)
     sel.tags = tag_filter;
 
+  sel.done = { $not: true };
+  return Todos.find(sel, {sort: {timestamp: 1}});
+};
+
+Template.todos.done_todos = function () {
+  // Determine which todos to display in main pane,
+  // selected based on list_id and tag_filter.
+
+  var list_id = Session.get('list_id');
+  if (!list_id)
+    return {};
+
+  var sel = {list_id: list_id};
+  var tag_filter = Session.get('tag_filter');
+  if (tag_filter)
+    sel.tags = tag_filter;
+
+  sel.done = true;
   return Todos.find(sel, {sort: {timestamp: 1}});
 };
 
